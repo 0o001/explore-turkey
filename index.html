@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explore Turkey</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+    <div id="map" style="position: fixed !important;"></div>
+
+    <div class="modal fade imagesModal" tabindex="-1" role="dialog" aria-labelledby="imagesModal" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLongTitle">...</h5>
+              </div>
+              <div class="modal-body">
+                  <div class="image-list">
+                    ...
+                  </div>
+              </div>
+            </div>
+          </div>
+    </div>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDvf-8Tapagmr14vGMhD4evYO2ilNTba-I&callback=initMap"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/cities_of_turkey.js"></script>
+    <script src="js/index.js"></script>
+</body>
+</html>
